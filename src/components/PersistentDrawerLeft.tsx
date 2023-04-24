@@ -174,7 +174,7 @@ export default function PersistentDrawerLeft(props: any) {
                     style={{ flexGrow: 1, cursor: "pointer" }}
                   >
                     {location === "/"
-                      ? "MAX TODOS"
+                      ? "Mahmoud TODOS"
                       : location.toUpperCase().replace("/", "")}
                   </Typography>
                 ) : (
@@ -184,7 +184,7 @@ export default function PersistentDrawerLeft(props: any) {
                       noWrap
                       style={{ flexGrow: 1, cursor: "pointer" }}
                     >
-                      MAX TODOS
+                      Mahmoud TODOS
                     </Typography>
                   </Link>
                 )}
